@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Tutorial - Form Handling</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/jbTut.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="modal-trigger" href="#regModal">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Register</a></li>
+    </ul>
+
+
+    <!-- Modal Structure -->
+    <div id="regModal" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+
+            <p>
+                Read up on MySQL Normalization from this link https://www.guru99.com/database-normalization.html
+            </p>
+        </div>        
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jbTut.js"></script>    
+</body>
+</html>
+// echo var_dump($rw5['datePosted']);
+echo print_r($rw5['datePosted']);
+
+echo '<li class="collection-item">
+    <div class="row commentHead">
+        <div class="left grey-text">'.$rw5['names'].'</div>
+        <div class="right  grey-text">'.timer($rw5['datePosted']).'</div>
+    </div>
+    <div class="row">
+        <p>'.$rw5['comment'].'</p>
+    </div>
+</li>';
+                                        <span class="card-title">'.substr($row['title'], 0, 12).'... <small><i>'.$row['datePosted'].'</i></small></span>
+                                        <div class="dor">
+                                            <ul id="slide-out" class="sidenav grey" id="tony">
+                                                <li>
+                                                    <h6>layout style</h6><a href="#">
+                                                        <p class="blue-text">style one</p><br>
+                                                        <p>style two</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <h6>layout color</h6><a href="#"></a>
+                                                    <p>light</p><br>
+                                                    <p class="blue-text">dark</p>
+                                                </li>
+                                                <li>
+                                                    <h6>home page style:</h6><a href="#"></a>
+                                                    <p class="blue-text">image</p><br>
+                                                    <p>transparent color bg</p><br>
+                                                    <p>solid color bg</p><br>
+                                                    <p>video bg</p><br>
+                                                    <p>(note bg = background)</p>
+                                                    <p class="cil"></p>
+                                                </li>
+                                            </ul>
+                                            <a href="#" data-target="slide-out" style="position: fixed;" class="sidenav-trigger white medium"><i
+                                                    class="material-icons">mic_off</i></a>
+                                        </div>
+                                        
+                                        <div class="row section">
+                                            <div class="col s12 center  logo-only">
+                                                <img alt="" src="img/logo.png" />
+                                            </div>
+                                            <div class="col s12 center no-pad-top" style="margin-top: 20px;">
+                                                <div class="cyril">
+                                                    <h1 class="intro white-text">Present your app in beautiful way with Kane.</h1>
+                                                    <h6 class="white-text">Available on App Store and Play Store.</h6>
+                                                </div>
+                                        
+                                        
+                                                <a class="waves-effect waves-light btn-large orange " style="margin-top: 10px;"><i
+                                                        class="material-icons left">cloud_download</i>Download
+                                                    App
+                                                </a>
+                                            </div>
+                                        
+                                        </div>
+                                        </div>
